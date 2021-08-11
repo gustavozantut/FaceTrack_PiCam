@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO          
 from time import sleep
-ypin = 26
-xpin = 19
+ypin = 21
+xpin = 12
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
